@@ -1,0 +1,29 @@
+.left_column {
+    margin-right: 170px;
+}
+
+.right_column {
+    float: right;
+    width: 160px;
+}
+
+#nav_container {
+    list-style-type: none;
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    color: red;
+}
+
+a:hover {
+    color: blue;    
+}

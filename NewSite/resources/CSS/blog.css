@@ -1,0 +1,19 @@
+.blog-post {
+	text-align: center;
+	border-style: solid;
+	border-color: slategrey;
+	background-color: lightgrey;
+	color:black;
+}
+
+.blog-post-title {
+	font-size: 30pt;
+	font-style: bold;
+	color:black;
+}
+
+.blog-post-text {
+	text-align: center;
+	font-size: 25pt;
+	color:black;
+}

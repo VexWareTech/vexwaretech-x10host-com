@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="fib.js"></script>
+		<script>
+		var fibSeq = null;
+			function main() {
+				var amount = document.getElementById("amount").value;
+				var f = new Fibonacci();
+				fibSeq = "";
+				for(var i = 1; i <= amount; i++) {
+					fibSeq += f.looping(i) + " ";
+				}
+				showResult();
+			}
+			
+			function showResult() {
+				document.getElementById("result").innerHTML = fibSeq;
+			}
+		</script>
+	</head>
+	<body style="background-color:black">
+		<h1 style="color:red">Fibonacci</h1>
+		<div style="background-color:black">
+			<input type="text" id="amount" />
+			<button id="submit-button" onClick="main()">Submit</button>
+		</div>
+			<br>
+		<div style="padding:40px; background-color:slategrey;">
+			<b id="result"></b>
+		</div>
+	</body>
+</html>
